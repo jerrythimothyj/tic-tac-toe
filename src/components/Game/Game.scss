@@ -1,0 +1,29 @@
+.game {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .game-info {
+    margin-left: 24px;
+
+    ul {
+      padding-left: 30px;
+      margin-top: 5px;
+      margin-bottom: 0;
+    }
+  }
+
+  .status {
+    margin-top: 10px;
+  }
+}
+
+
